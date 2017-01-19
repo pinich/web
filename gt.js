@@ -1,3 +1,6 @@
+function test(){
+	alert("Some Message");	
+}
 function documentReady() {
 	var gTElement = document.createElement('div');
 	gTElement.id = "google_translate_element";
@@ -107,8 +110,7 @@ function googleTranslateElementInit() {
 		includedLanguages: 'ar,en,fr,am,ru',
 	}, 'google_translate_element');
 }
-//google.translate.TranslateElement.FloatPosition.TOP_LEFT
-//google.translate.TranslateElement.InlineLayout.SIMPLE
+
 
 function gtMini() {
 	var gtConstEvalStartTime = new Date();
