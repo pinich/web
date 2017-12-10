@@ -23,7 +23,7 @@ function onLangChange() {
 
 	var e = this.getElementsByTagName("select")[0];
 	var txtValue = e.options[e.selectedIndex].text;
-	ajax('index.html, function (xhr) {
+	ajax('index.html', function (xhr) {
 		console.log("Selected Language: " + txtValue);
 	}, null, null);
 
